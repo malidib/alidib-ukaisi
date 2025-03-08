@@ -23,7 +23,7 @@ def show_logs(db_name: str):
             print(f"ID: {log_id}, Timestamp: {timestamp}, Content: {content}")
 
 
-show_logs("./completions_moderated.db")
-show_logs("./completions_unmoderated.db")
+show_logs("./all_modified_codes/task_Standardize/completions_moderated.db")
+show_logs("./all_modified_codes/task_Standardize/completions_unmoderated.db")
 
 
