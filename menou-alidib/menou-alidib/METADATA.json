@@ -1,6 +1,6 @@
 {
-    "evaluation_name": "{{ cookiecutter.project_slug }}",
-    "evaluation_authors": ["{{ cookiecutter.author }}"],
+    "evaluation_name": "A Benchmark for Adversarial Database Pipeline Tampering",
+    "evaluation_authors": ["Kristen Menou & Mohamad Ali-Dib"],
     "parent_tasks": [],
     "subtasks": [],
     "estimated_expert_completion_time": 0.5,
