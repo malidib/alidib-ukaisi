@@ -37,7 +37,9 @@ This project introduces a multi-agent benchmark to evaluate the robustness of LL
   
         * LLM Gr is still hard coded in phase_1.py (line 173).
 
-Note: For best results, set all of the models to gpt-4.5-preview, except o3-mini. Although good results can be obtained with all combinations as well.
+For best results, set all of the models to gpt-4.5-preview, except o3-mini. Although good results can be obtained with all combinations as well.
+
+Notes: 
 
 The main information in the .db files can be extracted by running postprocessing_results.py (equivalent to inspect view statistics).
 
