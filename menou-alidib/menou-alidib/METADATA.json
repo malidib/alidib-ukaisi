@@ -3,7 +3,7 @@
     "evaluation_authors": ["Kristen Menou & Mohamad Ali-Dib"],
     "parent_tasks": [],
     "subtasks": [],
-    "estimated_expert_completion_time": 30 minutes,
+    "estimated_expert_completion_time": 30,
     "domains": ["Autonomous Systems"],
     "requires_sandbox": true,
     "release_status": "public",
