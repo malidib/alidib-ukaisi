@@ -1,15 +1,24 @@
 # Contributing Guide
 
-This document should contain notes and instructions for anyone who will be maintaining or developing the submitted evaluation.
+This document contain notes and instructions for anyone maintaining or developing the evaluation.
 
 ## Maintenance Details
 
-Details about maintenance of the evaluation. In particular, you should try to estimate the expected maintenance level and flag up any external data sources the evaluation relies on, or other resources that may change or break over time.
+The eval does not rely on external data sources in order to run, but you might want to replace the dummy datasets with your own real world data.
+Maintenance level should be low due to no dependencies on external packages that might break compatibility in the future.
+The utils are in their own file, and so are the prompts, making maintenance easier.
+The only thing to keep in mind is running create_dataset.py when you modify phase_1.py.
 
 ## Testing Details
 
-Details about how to run tests for this evaluation, and any manual setup steps that may be required to do so (e.g. environment variables that need to be set before running).
+The eval has no external package dependencies. The only environment variables that need to be set are LLMs API keys. 
+The 2 modules (phase_1 and phase_2) can be tested separately or together on the included dummy data using :
+python create_dataset.py   #(optional if phase_1 is unmodified)
+inspect eval ./phase_1.py  --model openai/o3-mini
+inspect eval ./phase_2.py  --model openai/o3-mini   # this will run both phase_1 and phase_2
 
 ## Developer Contact Details
 
-Who should we reach out to for help if we’re maintaining and get stuck, or have questions? (ideally someone who worked on developing the evaluation themselves).
+Mohamad Ali-Dib
+malidib@nyu.edu
+mmalidib@gmail.com
