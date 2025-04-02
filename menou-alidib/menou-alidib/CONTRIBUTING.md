@@ -20,5 +20,7 @@ inspect eval ./phase_2.py  --model openai/o3-mini   # this will run both phase_1
 ## Developer Contact Details
 
 Mohamad Ali-Dib
+
 malidib@nyu.edu
+
 mmalidib@gmail.com
