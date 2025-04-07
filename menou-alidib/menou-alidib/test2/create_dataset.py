@@ -40,7 +40,6 @@ dataset_2['input'] = dataset_2['input'].apply(create_prompt)
 
 # Add the target column with a constant value of 1
 dataset_2['target'] = 1
-dataset_2.loc[0, "target"] = 0
 
 # Save the resulting dataset to "dataset_3.csv" with the specified columns
 dataset_2[['input', 'target']].to_csv(

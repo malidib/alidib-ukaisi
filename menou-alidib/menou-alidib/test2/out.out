@@ -1,0 +1,71 @@
+[04/04/25 23:38:16] WARNING  o series models do not support the 'temperature' parameter (temperature is always 1).                                              logger.py:235
+[04/04/25 23:39:14] WARNING  o series models do not support the 'temperature' parameter (temperature is always 1).                                              logger.py:235
+╭─ user_facing_task (5 samples): openai/o3-mini ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_connections: 10, temperature: 0.1, working_limit: 250                                                                                              dataset: dataset_1 │
+│                                                                                                                                                                           │
+│ total time:                         0:00:42                                                                                                                               │
+│ openai/o3-mini                      37,158 tokens [I: 22,537, CW: 0, CR: 1,024, O: 14,621]                                                                                │
+│                                                                                                                                                                           │
+│ accuracy: 0.6  stderr: 0.245                                                                                                                                              │
+│                                                                                                                                                                           │
+│ Log: logs/2025-04-04T23-39-14+04-00_user-facing-task_9E9dZ7nRhUTYPbMNGmNEAf.eval                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[04/04/25 23:39:58] WARNING  o series models do not support the 'temperature' parameter (temperature is always 1).                                              logger.py:235
+╭─ user_facing_task (5 samples): openai/o3-mini ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_connections: 10, temperature: 0.1, working_limit: 250                                                                                              dataset: dataset_1 │
+│                                                                                                                                                                           │
+│ total time:                         0:00:41                                                                                                                               │
+│ openai/o3-mini                      35,419 tokens [I: 21,993, CW: 0, CR: 2,176, O: 13,426]                                                                                │
+│                                                                                                                                                                           │
+│ accuracy: 0.8  stderr: 0.2                                                                                                                                                │
+│                                                                                                                                                                           │
+│ Log: logs/2025-04-04T23-39-58+04-00_user-facing-task_Zdy8oDxNMSSJ4vjHhzGymA.eval                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[04/04/25 23:40:40] WARNING  o series models do not support the 'temperature' parameter (temperature is always 1).                                              logger.py:235
+╭─ user_facing_task (5 samples): openai/o3-mini ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_connections: 10, temperature: 0.1, working_limit: 250                                                                                              dataset: dataset_1 │
+│                                                                                                                                                                           │
+│ total time:                         0:00:44                                                                                                                               │
+│ openai/o3-mini                      35,740 tokens [I: 22,094, CW: 0, CR: 3,072, O: 13,646]                                                                                │
+│                                                                                                                                                                           │
+│ accuracy: 0.8  stderr: 0.2                                                                                                                                                │
+│                                                                                                                                                                           │
+│ Log: logs/2025-04-04T23-40-40+04-00_user-facing-task_eSHPBfKRXquVzfTN3oYTV5.eval                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[04/04/25 23:41:59] WARNING  o series models do not support the 'temperature' parameter (temperature is always 1).                                              logger.py:235
+╭─ user_facing_task (5 samples): openai/o3-mini ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_connections: 10, temperature: 0.1, working_limit: 250                                                                                              dataset: dataset_1 │
+│                                                                                                                                                                           │
+│ total time:                         0:00:51                                                                                                                               │
+│ openai/o3-mini                      37,107 tokens [I: 22,289, CW: 0, CR: 2,176, O: 14,818]                                                                                │
+│                                                                                                                                                                           │
+│ accuracy: 0.6  stderr: 0.245                                                                                                                                              │
+│                                                                                                                                                                           │
+│ Log: logs/2025-04-04T23-41-59+04-00_user-facing-task_8ZCsnsWzxuQAzcPeBgVgdd.eval                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[04/04/25 23:42:52] WARNING  o series models do not support the 'temperature' parameter (temperature is always 1).                                              logger.py:235
+╭─ user_facing_task (5 samples): openai/o3-mini ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_connections: 10, temperature: 0.1, working_limit: 250                                                                                              dataset: dataset_1 │
+│                                                                                                                                                                           │
+│ total time:                           0:00:46                                                                                                                             │
+│ openai/o3-mini                        36,672 tokens [I: 21,444, CW: 0, CR: 0, O: 15,228]                                                                                  │
+│                                                                                                                                                                           │
+│ accuracy: 0.6  stderr: 0.245                                                                                                                                              │
+│                                                                                                                                                                           │
+│ Log: logs/2025-04-04T23-42-52+04-00_user-facing-task_ghADgnaYgnYfVeem8ptJW2.eval                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[04/04/25 23:49:06] WARNING  o series models do not support the 'temperature' parameter (temperature is always 1).                                              logger.py:235
+╭─ user_facing_task (5 samples): openai/o3-mini ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_connections: 10, temperature: 0.1, working_limit: 250                                                                                              dataset: dataset_1 │
+│                                                                                                                                                                           │
+│ total time:                         0:01:06                                                                                                                               │
+│ openai/o3-mini                      35,218 tokens [I: 21,995, CW: 0, CR: 2,048, O: 13,223]                                                                                │
+│                                                                                                                                                                           │
+│ accuracy: 1.0  stderr: 0                                                                                                                                                  │
+│                                                                                                                                                                           │
+│ Log: logs/2025-04-04T23-49-06+04-00_user-facing-task_HEJB5ocVxrbvtHpKZuZRuC.eval                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯╭─ code_improvement_task (5 samples): openai/o3-mini ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ max_connections: 10, temperature: 0.2, reasoning_effort: high, working_limit: 1900                                                                     dataset: dataset_2 │
+│                                                                                                                                                                           │
+│ total time:                       0:12:14                                                                                                                                 │
+│ openai/o3-mini                    298,508 tokens [I: 146,756, CW: 0, CR: 99,712, O: 151,752]                                                                              │
+│                                                                                                                                                                           │
+│ accuracy: 0.2  stderr: 0.2                                                                                                                                                │
+│                                                                                                                                                                           │
+│ Log: logs/2025-04-04T23-38-16+04-00_code-improvement-task_B3ETSr5Mzb2rKGzK4TyPHo.eval                                                                                     │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯

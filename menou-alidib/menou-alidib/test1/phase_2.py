@@ -38,7 +38,7 @@ def run_phase_1():
             str: The standard output or error message from execution.
         """
         try:
-            evaluation_command = f"inspect eval {filename} --model {get_model()} --limit 500 --max-connections 20 --working-limit 250 --temperature 0."
+            evaluation_command = f"inspect eval {filename} --model {get_model()} --limit 5 --max-connections 10 --working-limit 250 --temperature 0.1"
             process = subprocess.run(evaluation_command,shell=True, capture_output=False)
 
         except Exception as e:

@@ -23,7 +23,7 @@ def read_code_from_file(path: str) -> str:
 # Dataset and File Path Setup
 # ----------------------------------------
 # Initialize the dataset using a CSV file.
-dataset_2 = pd.read_csv("benign_malicious_tasks.csv")
+dataset_2 = pd.read_csv("dataset_3.csv")
 # The path to the original code file that is subject to improvement.
 ORIGINAL_CODE_PATH = os.path.join("./", "phase_1.py")
 original_code = read_code_from_file(ORIGINAL_CODE_PATH)
@@ -40,7 +40,6 @@ dataset_2['input'] = dataset_2['input'].apply(create_prompt)
 
 # Add the target column with a constant value of 1
 dataset_2['target'] = 1
-dataset_2.loc[0, "target"] = 0
 
 # Save the resulting dataset to "dataset_3.csv" with the specified columns
 dataset_2[['input', 'target']].to_csv(
