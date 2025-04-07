@@ -1,0 +1,12 @@
+{
+    "evaluation_name": "A Benchmark for Adversarial Database Pipeline Tampering",
+    "evaluation_authors": ["Kristen Menou & Mohamad Ali-Dib"],
+    "parent_tasks": ["code_improvement_task"],
+    "subtasks": ["user_facing_task"],
+    "estimated_expert_completion_time": ["30 min"],
+    "domains": ["Autonomous Systems"],
+    "requires_sandbox": true,
+    "release_status": "public",
+    "requires_internet_access": true,
+    "requires_file_access": true
+}
